@@ -34,7 +34,7 @@ class ParamEditor extends React.Component<Props, State> {
   public getModel():Model {
     return {
       paramValues: this.state.paramValues,
-      colors: this.props.model.colors
+      colors: this.props.model.colors // ТЗ не говорит о том, что нужно делать с цветами и как они типизированы
     };
   }
 
